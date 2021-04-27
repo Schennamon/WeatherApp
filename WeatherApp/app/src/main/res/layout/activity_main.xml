@@ -28,6 +28,7 @@
         android:backgroundTint="@color/teal_700"
         android:ems="10"
         android:hint="@string/hint_user_field"
+        android:textColor="@color/textColorHint"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColorHint="@color/textColorHint" />
@@ -45,12 +46,13 @@
 
     <TextView
         android:id="@+id/result_info"
-        android:layout_below="@id/main_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@id/main_btn"
+        android:layout_marginHorizontal="50sp"
         android:layout_marginTop="50sp"
-        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAlignment="textStart"
         android:textColor="@color/textColorHint"
         android:textSize="24sp" />
 </RelativeLayout>
